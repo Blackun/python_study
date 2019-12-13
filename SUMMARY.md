@@ -11,4 +11,6 @@
 ## 3장 주요라이브러리 활용 <a id="chapter3"></a>
 
 * [3.1 라이브러리 설치](chapter3/sub3_1.md)
+* [3.2 웹페이지 간단하게 추출하기](chapter3/sub3_2.md)
+* [3.3 HTML 스크레이핑](chapter3/3.3-html.md)
 

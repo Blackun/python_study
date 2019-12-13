@@ -16,8 +16,22 @@
         * -name \[name\] : 지정한 이름으로 컨테이너 별명을 지정한다.
         * -it : 컨테이너 생성 후 바로 터미널로 접근한다
         * -v : 호스트와 컨테이너의 디렉토리를 연결한다\(마운트\) 
+2. Docker mysql 설치하기
+   * [https://hub.docker.com/\_/mysql](https://hub.docker.com/_/mysql) 참
 
-### 
+```bash
+# mysql docker 컨테이너 생성하
+$ docker run --name=jg_mysql --env="MYSQL_ROOT_PASSWORD=root_password" -p 3306:3306 -d mysql:latest
+```
+
+```bash
+# mysql docker 컨테이너 접속하기
+$ docker exec -it jg_mysql mysql -uroot -proot_password
+```
+
+
+
+
 
 
 
