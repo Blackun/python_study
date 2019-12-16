@@ -6,3 +6,16 @@ feedparser  를 사용하면 표준라이브러리인 ElementTree보다 간단�
 $ pip install feedparser
 ```
 
+```python
+import feedparser
+d = feedparser.parse('http://www.aladin.co.kr/rss/special_new/351')
+
+# 항목을 순회합니다
+for entry in d.entries:
+    print('이름:', entry.title)
+    print('링크:', entry.link)
+    print()
+```
+
+![](../.gitbook/assets/p7.png)
+
