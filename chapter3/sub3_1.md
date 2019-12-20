@@ -20,15 +20,3 @@
 (scraping) $ pip freeze
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
